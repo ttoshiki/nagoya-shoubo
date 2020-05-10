@@ -10,7 +10,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nagoya-denki
+ * @package nagoya-shoubo
  */
 
 get_header();
@@ -31,20 +31,20 @@ get_header();
 			<div class="front_news_box">
 				<h1>最新情報</h1>
 				<?php
-				$news_query = new WP_Query(
-					array(
-						'post_type'      => 'post',
-						'category_name' => 'news',
-						'posts_per_page' => 5,
-						'order' => 'DESC',
-					)
-				);
-				?>
+                $news_query = new WP_Query(
+    array(
+                        'post_type'      => 'post',
+                        'category_name' => 'news',
+                        'posts_per_page' => 5,
+                        'order' => 'DESC',
+                    )
+);
+                ?>
 				<?php if ($news_query->have_posts()) : ?>
 					<?php while ($news_query->have_posts()) : ?>
 						<?php $news_query->the_post();
-								$cat = get_the_category();
-								$cat_name = $cat[0]->name; ?>
+                                $cat = get_the_category();
+                                $cat_name = $cat[0]->name; ?>
 						<div class="news_list">
 							<a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"></a>
 							<div>
@@ -55,15 +55,15 @@ get_header();
 							</div>
 							<div class="news_title">
 								<?php
-										echo $post->post_title;
-										// ----- 文字数制限をつけたい場合 -----
-										// if (mb_strlen($post->post_title) > 40) {
-										// 	$title = mb_substr($post->post_title, 0, 40);
-										// 	echo $title . '...';
-										// } else {
-										// 	echo $post->post_title;
-										//}
-										?>
+                                        echo $post->post_title;
+                                        // ----- 文字数制限をつけたい場合 -----
+                                        // if (mb_strlen($post->post_title) > 40) {
+                                        // 	$title = mb_substr($post->post_title, 0, 40);
+                                        // 	echo $title . '...';
+                                        // } else {
+                                        // 	echo $post->post_title;
+                                        //}
+                                        ?>
 							</div>
 						</div>
 					<?php endwhile; ?>
@@ -74,7 +74,7 @@ get_header();
 			</div>
 		</section>
 		<section id="front_about" class="sec_container">
-			<div class="about_nagoyadenki">
+			<div class="about_nagoyashoubo">
 				"名古屋電気工事"<span class="small_about">とは</span>
 			</div>
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/service_map.png" alt="愛知県名古屋市を中心にサービスを展開">

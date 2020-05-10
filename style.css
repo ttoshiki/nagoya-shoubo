@@ -14,7 +14,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-nagoya-denki is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+nagoya-shoubo is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -1175,7 +1175,7 @@ a:active {
   height: 50px;
   padding: 15px 0 0 40px;
   margin-right: 20px;
-  background: url("https://nagoya-denki.biz/wp-content/themes/nagoya-denki/img/front-page/icon_checkbox.png") 0px 5px
+  background: url("https://nagoya-shoubo.com/wp-content/themes/nagoya-shoubo/img/front-page/icon_checkbox.png") 0px 5px
     no-repeat;
 }
 
@@ -1241,7 +1241,7 @@ a:active {
   width: 100%;
 }
 
-.about_nagoyadenki {
+.about_nagoyashoubo {
   margin: 0 -8%;
   padding: 20px 10px;
   background-color: black;
@@ -1251,12 +1251,12 @@ a:active {
   letter-spacing: 3px;
 }
 
-.about_nagoyadenki .small_about {
+.about_nagoyashoubo .small_about {
   font-size: 50%;
 }
 
 @media (max-width: 768px) {
-  .about_nagoyadenki {
+  .about_nagoyashoubo {
     font-size: 7vw;
   }
 }
@@ -1789,7 +1789,7 @@ a:active {
   min-height: 45px;
   min-width: 45px;
   margin-right: 1.2vw;
-  background-image: url(https://nagoya-denki.biz/wp-content/themes/nagoya-denki/img/front-page/icon_q.png);
+  background-image: url(https://nagoya-shoubo.com/wp-content/themes/nagoya-shoubo/img/front-page/icon_q.png);
   background-size: cover;
   vertical-align: middle;
 }
@@ -1802,7 +1802,7 @@ a:active {
   min-height: 45px;
   min-width: 45px;
   margin-right: 1.2vw;
-  background-image: url(https://nagoya-denki.biz/wp-content/themes/nagoya-denki/img/front-page/icon_a.png);
+  background-image: url(https://nagoya-shoubo.com/wp-content/themes/nagoya-shoubo/img/front-page/icon_a.png);
   background-size: cover;
   vertical-align: middle;
 }

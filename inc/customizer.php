@@ -1,8 +1,8 @@
 <?php
 /**
- * nagoya-denki Theme Customizer
+ * nagoya-shoubo Theme Customizer
  *
- * @package nagoya-denki
+ * @package nagoya-shoubo
  */
 
 /**
@@ -10,31 +10,33 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function nagoya_denki_customize_register( $wp_customize ) {
-	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
-	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
-	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+function nagoya_shoubo_customize_register($wp_customize)
+{
+    $wp_customize->get_setting('blogname')->transport         = 'postMessage';
+    $wp_customize->get_setting('blogdescription')->transport  = 'postMessage';
+    $wp_customize->get_setting('header_textcolor')->transport = 'postMessage';
 
-	if ( isset( $wp_customize->selective_refresh ) ) {
-		$wp_customize->selective_refresh->add_partial( 'blogname', array(
-			'selector'        => '.site-title a',
-			'render_callback' => 'nagoya_denki_customize_partial_blogname',
-		) );
-		$wp_customize->selective_refresh->add_partial( 'blogdescription', array(
-			'selector'        => '.site-description',
-			'render_callback' => 'nagoya_denki_customize_partial_blogdescription',
-		) );
-	}
+    if (isset($wp_customize->selective_refresh)) {
+        $wp_customize->selective_refresh->add_partial('blogname', array(
+            'selector'        => '.site-title a',
+            'render_callback' => 'nagoya_shoubo_customize_partial_blogname',
+        ));
+        $wp_customize->selective_refresh->add_partial('blogdescription', array(
+            'selector'        => '.site-description',
+            'render_callback' => 'nagoya_shoubo_customize_partial_blogdescription',
+        ));
+    }
 }
-add_action( 'customize_register', 'nagoya_denki_customize_register' );
+add_action('customize_register', 'nagoya_shoubo_customize_register');
 
 /**
  * Render the site title for the selective refresh partial.
  *
  * @return void
  */
-function nagoya_denki_customize_partial_blogname() {
-	bloginfo( 'name' );
+function nagoya_shoubo_customize_partial_blogname()
+{
+    bloginfo('name');
 }
 
 /**
@@ -42,14 +44,16 @@ function nagoya_denki_customize_partial_blogname() {
  *
  * @return void
  */
-function nagoya_denki_customize_partial_blogdescription() {
-	bloginfo( 'description' );
+function nagoya_shoubo_customize_partial_blogdescription()
+{
+    bloginfo('description');
 }
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function nagoya_denki_customize_preview_js() {
-	wp_enqueue_script( 'nagoya-denki-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+function nagoya_shoubo_customize_preview_js()
+{
+    wp_enqueue_script('nagoya-shoubo-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true);
 }
-add_action( 'customize_preview_init', 'nagoya_denki_customize_preview_js' );
+add_action('customize_preview_init', 'nagoya_shoubo_customize_preview_js');
