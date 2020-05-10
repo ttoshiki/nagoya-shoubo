@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /*!
-Theme Name: nagoya-denki
+Theme Name: nagoya-shoubo
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
-Description: 「_s」テーマを元に作成した、名古屋電気オリジナルテーマです。
+Description: 「_s」テーマを元に作成した、名古屋消防オリジナルテーマです。
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: nagoya-denki
+Text Domain: nagoya-shoubo
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -146,7 +146,8 @@ abbr[title] {
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b, strong {
+b,
+strong {
   font-weight: bolder;
 }
 
@@ -155,7 +156,9 @@ b, strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code, kbd, samp {
+code,
+kbd,
+samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
@@ -175,7 +178,8 @@ small {
  * all browsers.
  */
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -209,7 +213,11 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -225,7 +233,8 @@ button, input, optgroup, select, textarea {
  * 1. Show the overflow in Edge.
  */
 
-button, input {
+button,
+input {
   /* 1 */
   overflow: visible;
 }
@@ -235,7 +244,8 @@ button, input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button, select {
+button,
+select {
   /* 1 */
   text-transform: none;
 }
@@ -244,7 +254,10 @@ button, select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-button, [type="button"], [type="reset"], [type="submit"] {
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -252,7 +265,10 @@ button, [type="button"], [type="reset"], [type="submit"] {
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -261,7 +277,10 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-mo
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -317,7 +336,8 @@ textarea {
  * 2. Remove the padding in IE 10.
  */
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
@@ -329,7 +349,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -391,7 +412,8 @@ summary {
  * Add the correct display in IE 10+.
  */
 
-template, [hidden] {
+template,
+[hidden] {
   display: none;
 }
 
@@ -403,7 +425,12 @@ template, [hidden] {
 # Typography
 --------------------------------------------------------------*/
 
-body, button, input, select, optgroup, textarea {
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
   color: #404040;
   font-family: sans-serif;
   font-size: 16px;
@@ -411,7 +438,12 @@ body, button, input, select, optgroup, textarea {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both;
 }
 
@@ -419,7 +451,10 @@ p {
   margin-bottom: 1.5em;
 }
 
-dfn, cite, em, i {
+dfn,
+cite,
+em,
+i {
   font-style: italic;
 }
 
@@ -443,18 +478,23 @@ pre {
   padding: 1.6em;
 }
 
-code, kbd, tt, var {
+code,
+kbd,
+tt,
+var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem;
 }
 
-abbr, acronym {
+abbr,
+acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-mark, ins {
+mark,
+ins {
   background: #fff9c0;
   text-decoration: none;
 }
@@ -478,7 +518,8 @@ html {
   box-sizing: inherit;
 }
 
-*:before, *:after {
+*:before,
+*:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
@@ -500,7 +541,8 @@ hr {
   margin-bottom: 1.5em;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0 0 1.5em 3em;
 }
 
@@ -512,7 +554,8 @@ ol {
   list-style: decimal;
 }
 
-li>ul, li>ol {
+li > ul,
+li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
@@ -555,10 +598,12 @@ button {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6em 1em .4em;
+  padding: 0.6em 1em 0.4em;
 }
 
-input[type="button"], input[type="reset"], input[type="submit"] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -567,34 +612,54 @@ input[type="button"], input[type="reset"], input[type="submit"] {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6em 1em .4em;
+  padding: 0.6em 1em 0.4em;
 }
 
 button:hover {
   border-color: #ccc #bbb #aaa;
 }
 
-input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
   border-color: #ccc #bbb #aaa;
 }
 
-button:active, button:focus {
+button:active,
+button:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-input[type="button"]:active, input[type="button"]:focus {
+input[type="button"]:active,
+input[type="button"]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-input[type="reset"]:active, input[type="reset"]:focus {
+input[type="reset"]:active,
+input[type="reset"]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-input[type="submit"]:active, input[type="submit"]:focus {
+input[type="submit"]:active,
+input[type="submit"]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"] {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -608,7 +673,21 @@ textarea {
   padding: 3px;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus {
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus {
   color: #111;
 }
 
@@ -640,7 +719,9 @@ a:visited {
   color: purple;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: midnightblue;
 }
 
@@ -648,7 +729,8 @@ a:focus {
   outline: thin dotted;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   outline: 0;
 }
 
@@ -685,7 +767,8 @@ a:hover, a:active {
   top: 0;
 }
 
-.main-navigation ul ul li:hover>ul, .main-navigation ul ul li.focus>ul {
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
   left: 100%;
 }
 
@@ -693,7 +776,8 @@ a:hover, a:active {
   width: 200px;
 }
 
-.main-navigation ul li:hover>ul, .main-navigation ul li.focus>ul {
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
   left: auto;
 }
 
@@ -709,7 +793,8 @@ a:hover, a:active {
 
 /* Small menu. */
 
-.menu-toggle, .main-navigation.toggled ul {
+.menu-toggle,
+.main-navigation.toggled ul {
   display: block;
 }
 
@@ -722,31 +807,41 @@ a:hover, a:active {
   }
 }
 
-.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
   padding: 0 0 1.5em;
   margin: 0 0 1.5em;
   overflow: hidden;
 }
 
-.site-main .comment-navigation a, .site-main .posts-navigation a, .site-main .post-navigation a {
+.site-main .comment-navigation a,
+.site-main .posts-navigation a,
+.site-main .post-navigation a {
   display: inline-block;
-  background-color: #004EA1;
+  background-color: #004ea1;
   color: white;
   padding: 5px 25px;
   border-radius: 10px;
 }
 
-.site-main .comment-navigation a:hover, .site-main .posts-navigation a:hover, .site-main .post-navigation a:hover {
+.site-main .comment-navigation a:hover,
+.site-main .posts-navigation a:hover,
+.site-main .post-navigation a:hover {
   text-decoration: none;
   background-color: rgb(21, 114, 212);
 }
 
-.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
   float: left;
   width: 50%;
 }
 
-.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
   float: right;
   /* text-align: right; */
   width: 50%;
@@ -830,43 +925,54 @@ a:hover, a:active {
 # Clearings
 --------------------------------------------------------------*/
 
-.clear:before, .clear:after {
+.clear:before,
+.clear:after {
   content: "";
   display: table;
   table-layout: fixed;
 }
 
-.entry-content:before, .entry-content:after {
+.entry-content:before,
+.entry-content:after {
   content: "";
   display: table;
   table-layout: fixed;
 }
 
-.comment-content:before, .comment-content:after {
+.comment-content:before,
+.comment-content:after {
   content: "";
   display: table;
   table-layout: fixed;
 }
 
-.site-header:before, .site-header:after {
+.site-header:before,
+.site-header:after {
   content: "";
   display: table;
   table-layout: fixed;
 }
 
-.site-content:before, .site-content:after {
+.site-content:before,
+.site-content:after {
   content: "";
   display: table;
   table-layout: fixed;
 }
 
-.site-footer:before, .site-footer:after {
+.site-footer:before,
+.site-footer:after {
   content: "";
   display: table;
   table-layout: fixed;
 }
 
-.clear:after, .entry-content:after, .comment-content:after, .site-header:after, .site-content:after, .site-footer:after {
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
   clear: both;
 }
 
@@ -893,7 +999,7 @@ a:hover, a:active {
 
 .site-main {
   text-align: center;
-  background-color: #DDDDDD;
+  background-color: #dddddd;
 }
 
 /* 固定ページ */
@@ -963,7 +1069,7 @@ a:hover, a:active {
 }
 
 .header_right_tel {
-  color: #004EA1;
+  color: #004ea1;
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 1px;
@@ -971,7 +1077,8 @@ a:hover, a:active {
 }
 
 @media (max-width: 990px) {
-  .header_right_speedy, .header_icon_contact {
+  .header_right_speedy,
+  .header_icon_contact {
     display: none;
   }
   .header_right_tel {
@@ -1015,7 +1122,7 @@ a:hover, a:active {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 0;
-  background-color: #004FA1;
+  background-color: #004fa1;
   color: white;
   text-align: center;
   font-size: 30px;
@@ -1068,7 +1175,8 @@ a:hover, a:active {
   height: 50px;
   padding: 15px 0 0 40px;
   margin-right: 20px;
-  background: url('https://nagoya-denki.biz/wp-content/themes/nagoya-denki/img/front-page/icon_checkbox.png') 0px 5px no-repeat;
+  background: url("https://nagoya-denki.biz/wp-content/themes/nagoya-denki/img/front-page/icon_checkbox.png") 0px 5px
+    no-repeat;
 }
 
 /* ------ section # front_news ------ */
@@ -1108,7 +1216,7 @@ a:hover, a:active {
   background-color: #000000;
 }
 
-.news_list>div {
+.news_list > div {
   text-align: left;
 }
 
@@ -1168,7 +1276,7 @@ a:hover, a:active {
 }
 
 .sec_inner_bgbrown {
-  background-color: #FFF7EA;
+  background-color: #fff7ea;
 }
 
 #front_3point img {
@@ -1207,7 +1315,7 @@ a:hover, a:active {
 }
 
 .const_example_box_header:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 10px;
@@ -1219,7 +1327,7 @@ a:hover, a:active {
 }
 
 .const_example_box_header:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 10px;
@@ -1267,7 +1375,7 @@ a:hover, a:active {
   line-height: 1.8;
 }
 
-.const_example_text>div {
+.const_example_text > div {
   text-align: left;
   font-weight: bold;
 }
@@ -1275,7 +1383,7 @@ a:hover, a:active {
 .cet_2 {
   width: 150px;
   border-radius: 25px;
-  background-color: #004EA1;
+  background-color: #004ea1;
   color: white;
   font-size: 25px;
   letter-spacing: 0.1em;
@@ -1284,13 +1392,13 @@ a:hover, a:active {
 }
 
 .cet_3 {
-  color: #004EA1;
+  color: #004ea1;
   font-size: 1.2rem;
   letter-spacing: 0.1em;
 }
 
 .cet_3 .highlight {
-  background-color: #FDF100;
+  background-color: #fdf100;
 }
 
 /* -- point 2 -- */
@@ -1305,7 +1413,7 @@ a:hover, a:active {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  border-top: 10vw solid #FFF100;
+  border-top: 10vw solid #fff100;
   border-right: 20vw solid transparent;
   border-left: 20vw solid transparent;
 }
@@ -1323,7 +1431,7 @@ a:hover, a:active {
 }
 
 .point3_text .point3_blue2 {
-  color: #77BAE7;
+  color: #77bae7;
   font-size: 28px;
 }
 
@@ -1344,23 +1452,23 @@ a:hover, a:active {
   text-align: left;
 }
 
-#front_result_and_voice>img {
+#front_result_and_voice > img {
   width: 100%;
 }
 
 .sec_inner_bgblue {
-  background-color: #C7E0F6;
+  background-color: #c7e0f6;
 }
 
 .underline_blue {
   font-size: 1.7em;
   letter-spacing: 2px;
-  background: linear-gradient(transparent 60%, #85C0EA 40%);
+  background: linear-gradient(transparent 60%, #85c0ea 40%);
 }
 
 .underline_yellow {
   letter-spacing: 2px;
-  background: linear-gradient(transparent 50%, #FFF464 50%);
+  background: linear-gradient(transparent 50%, #fff464 50%);
 }
 
 .custom_voice {
@@ -1390,7 +1498,7 @@ a:hover, a:active {
 }
 
 .custom_voice_box .speechbaloon:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 0;
@@ -1439,8 +1547,8 @@ a:hover, a:active {
 }
 
 .company_box_header {
-  border: 3px solid #004EA1;
-  background-color: #004EA1;
+  border: 3px solid #004ea1;
+  background-color: #004ea1;
   border-radius: 20px 20px 0 0;
   color: white;
   font-size: 4vw;
@@ -1451,9 +1559,9 @@ a:hover, a:active {
 .company_box {
   padding: 3.8vw 4vw;
   border-top: none;
-  border-left: 12px solid #004EA1;
-  border-right: 12px solid #004EA1;
-  border-bottom: 12px solid #004EA1;
+  border-left: 12px solid #004ea1;
+  border-right: 12px solid #004ea1;
+  border-bottom: 12px solid #004ea1;
   background-color: white;
   /* font-size: 1.8vw; */
   font-size: 23px;
@@ -1463,7 +1571,7 @@ a:hover, a:active {
 
 .company_box .company_1st_message {
   padding: 0 2vw 2.5vw;
-  border-bottom: 10px solid #004EA1;
+  border-bottom: 10px solid #004ea1;
 }
 
 .company_box .company_1st_message .company_catchcopy {
@@ -1480,14 +1588,14 @@ a:hover, a:active {
 }
 
 .company_box .company_1st_message .company_catchcopy:before {
-  content: '「';
+  content: "「";
   position: absolute;
   top: 0;
   left: -1.3em;
 }
 
 .company_box .company_1st_message .company_catchcopy:after {
-  content: '」';
+  content: "」";
   position: absolute;
   bottom: 0;
   right: -1.3em;
@@ -1546,7 +1654,7 @@ a:hover, a:active {
 .front_flow_header {
   font-size: 50px;
   color: white;
-  background-color: #81C0EB;
+  background-color: #81c0eb;
   padding: 30px;
 }
 
@@ -1574,7 +1682,7 @@ a:hover, a:active {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 20%;
-  border-top: 4vw solid #FFF100;
+  border-top: 4vw solid #fff100;
   border-right: 9vw solid transparent;
   border-left: 9vw solid transparent;
   margin: 2vw 0;
@@ -1634,7 +1742,7 @@ a:hover, a:active {
 }
 
 .front_question_header:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -1674,7 +1782,7 @@ a:hover, a:active {
 }
 
 .qabox_q:before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 5vw;
   width: 5vw;
@@ -1687,7 +1795,7 @@ a:hover, a:active {
 }
 
 .qabox_a:before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 5vw;
   width: 5vw;
@@ -1750,7 +1858,7 @@ a:hover, a:active {
   text-align: left;
   width: 90%;
   max-width: 600px;
-  font-family: Century Gothic, Meiryo, メイリオ, 'MS PGothic', Helvetica, Arial, sans-serif;
+  font-family: Century Gothic, Meiryo, メイリオ, "MS PGothic", Helvetica, Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -1774,7 +1882,8 @@ a:hover, a:active {
   line-height: 1.2em;
 }
 
-.wpcf7 button[type=submit], .wpcf7 input[type=submit] {
+.wpcf7 button[type="submit"],
+.wpcf7 input[type="submit"] {
   background: #3b8dbd;
   color: #fff;
   font-size: 18px;
@@ -1784,10 +1893,11 @@ a:hover, a:active {
   border: none;
   cursor: pointer;
   -webkit-border-radius: 3px;
-  border-radius: 3px
+  border-radius: 3px;
 }
 
-.wpcf7 button[type=submit]:hover, .wpcf7 input[type=submit]:hover {
+.wpcf7 button[type="submit"]:hover,
+.wpcf7 input[type="submit"]:hover {
   opacity: 0.8;
 }
 
@@ -1799,7 +1909,8 @@ a:hover, a:active {
   display: block;
 }
 
-.post, .page {
+.post,
+.page {
   margin: 0 0 1.5em;
 }
 
@@ -1812,7 +1923,9 @@ a:hover, a:active {
   margin: 30px 0;
 }
 
-.page-content, .entry-content, .entry-summary {
+.page-content,
+.entry-content,
+.entry-summary {
   margin: 1.5em 0 0;
 }
 
@@ -1839,7 +1952,8 @@ a:hover, a:active {
 
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 
-.infinite-scroll .posts-navigation, .infinite-scroll.neverending .site-footer {
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
   display: none;
 }
@@ -1854,7 +1968,9 @@ a:hover, a:active {
 # Media
 --------------------------------------------------------------*/
 
-.page-content .wp-smiley, .entry-content .wp-smiley, .comment-content .wp-smiley {
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
   border: none;
   margin-bottom: 0;
   margin-top: 0;
@@ -1863,7 +1979,9 @@ a:hover, a:active {
 
 /* Make sure embeds and iframes fit their containers. */
 
-embed, iframe, object {
+embed,
+iframe,
+object {
   max-width: 100%;
 }
 
