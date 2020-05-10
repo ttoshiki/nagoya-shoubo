@@ -19,7 +19,7 @@ get_header();
 <div id="front_page" class="content-area">
 	<main id="main" class="site-main">
 		<section id="front_top">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main.png" alt="名古屋電気工事">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main.jpg" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main@2x.jpg" alt="名古屋消防" class="front_top-img">
 			<div class="first-campaign">
 				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/first_campaign.png" alt="初回限定特典">
 				<span>他社様<span class="small">の</span>見積書<br class="md-br"><span class="small">ご</span>提示<span class="small">で</span>値引き対応！</span>

@@ -819,7 +819,7 @@ a:active {
 .site-main .posts-navigation a,
 .site-main .post-navigation a {
   display: inline-block;
-  background-color: #004ea1;
+  background-color: #e60012;
   color: white;
   padding: 5px 25px;
   border-radius: 10px;
@@ -1069,7 +1069,7 @@ a:active {
 }
 
 .header_right_tel {
-  color: #004ea1;
+  color: #e60012;
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 1px;
@@ -1111,6 +1111,10 @@ a:active {
 
 /* ------ section # front_top ------ */
 
+.front_top-img {
+  vertical-align: bottom;
+}
+
 .first-campaign {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1122,7 +1126,7 @@ a:active {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 0;
-  background-color: #004fa1;
+  background-color: #e60012;
   color: white;
   text-align: center;
   font-size: 30px;
@@ -1383,7 +1387,7 @@ a:active {
 .cet_2 {
   width: 150px;
   border-radius: 25px;
-  background-color: #004ea1;
+  background-color: #e60012;
   color: white;
   font-size: 25px;
   letter-spacing: 0.1em;
@@ -1392,7 +1396,7 @@ a:active {
 }
 
 .cet_3 {
-  color: #004ea1;
+  color: #e60012;
   font-size: 1.2rem;
   letter-spacing: 0.1em;
 }
@@ -1547,8 +1551,8 @@ a:active {
 }
 
 .company_box_header {
-  border: 3px solid #004ea1;
-  background-color: #004ea1;
+  border: 3px solid #e60012;
+  background-color: #e60012;
   border-radius: 20px 20px 0 0;
   color: white;
   font-size: 4vw;
@@ -1559,9 +1563,9 @@ a:active {
 .company_box {
   padding: 3.8vw 4vw;
   border-top: none;
-  border-left: 12px solid #004ea1;
-  border-right: 12px solid #004ea1;
-  border-bottom: 12px solid #004ea1;
+  border-left: 12px solid #e60012;
+  border-right: 12px solid #e60012;
+  border-bottom: 12px solid #e60012;
   background-color: white;
   /* font-size: 1.8vw; */
   font-size: 23px;
@@ -1571,7 +1575,7 @@ a:active {
 
 .company_box .company_1st_message {
   padding: 0 2vw 2.5vw;
-  border-bottom: 10px solid #004ea1;
+  border-bottom: 10px solid #e60012;
 }
 
 .company_box .company_1st_message .company_catchcopy {
@@ -1989,6 +1993,7 @@ object {
 
 .custom-logo-link {
   display: inline-block;
+  max-width: 310px;
 }
 
 /*--------------------------------------------------------------
