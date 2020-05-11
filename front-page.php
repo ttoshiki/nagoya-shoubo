@@ -19,10 +19,10 @@ get_header();
 <div id="front_page" class="content-area">
 	<main id="main" class="site-main">
 		<section id="front_top">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main.jpg" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main@2x.jpg" alt="名古屋消防" class="front_top-img">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main.jpg" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/front-page_main@2x.jpg" alt="名古屋消防" class="front_top-frontimg">
 			<div class="first-campaign">
 				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/first_campaign.png" alt="初回限定特典">
-				<span>他社様<span class="small">の</span>見積書<br class="md-br"><span class="small">ご</span>提示<span class="small">で</span>値引き対応！</span>
+				<span>他社様<span class="small">の</span>見積書<br class="md-br">ご提示<span class="small">で</span>値引き対応！</span>
 			</div>
 		</section>
 		<!-- お問い合わせはこちら 見積無料 -->
@@ -75,16 +75,43 @@ get_header();
 		</section>
 		<section id="front_about" class="sec_container">
 			<div class="about_nagoyashoubo">
-				"名古屋電気工事"<span class="small_about">とは</span>
+				"名古屋消防設備"<span class="small_about">とは</span>
 			</div>
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/service_map.png" alt="愛知県名古屋市を中心にサービスを展開">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/triangle.png">
+			<div class="service_map_wrapper">
+				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/service_map.png" srcset="<?php bloginfo('template_directory'); ?>/img/front-page/service_map@2x.png" alt="愛知県名古屋市を中心にサービスを展開" class="service_map">
+			</div>
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/triangle.png" class="triangle">
+		</section>
+		<section id="front_legal" class="sec_container">
+			<h1 class="front_legalHeading">
+				<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_caution.png">
+				<span>建物の所有者や管理者は、次の法律や規則にもとづいて、<br />防火設備の設置や点検を行わなくてはなりません。</span>
+			</h1>
+			<ul class="front_legalList">
+				<li class="front_legalItem">
+					<h2 class="front_legalSubHeading">・消防法</h2>
+					<p class="front_legalParagraph">防火についての根本をあらわした法律（国会が制定する命令）です。消防機関の権限、消防設備等の設置義務・更改義務、建物の規制内容などの、基本的な事項が定められています。</p>
+				</li>
+				<li class="front_legalItem">
+					<h2 class="front_legalSubHeading">・消防法施行令</h2>
+					<p class="front_legalParagraph">消防法を施行するための政令（内閣によって制定された命令）です。消防用設備が満たすべき技術的基準、救急業務、消防設備の検査などについての規則が定められています。</p>
+				</li>
+				<li class="front_legalItem">
+					<h2 class="front_legalSubHeading">・火災予防条例</h2>
+					<p class="front_legalParagraph">国による法律や政令の他、各市町村が火災予防条例を制定して、防火を推進しています。<br />
+					条例では、消防法の委任を受けた事柄に加えて、地方の事情により必要とされる事柄、自主的に安全性向上のため規制すべき事柄などが定められています</p>
+				</li>
+				<li class="front_legalItem">
+					<h2 class="front_legalSubHeading">・建築基準法に基づく定期報告制度</h2>
+					<p class="front_legalParagraph">建築物・建築設備・防火設備・昇降機等について、定期的に専門の技術者に調査・検査をさせ、 その結果を特定行政庁に報告させることを、建築物の所有者等に義務付けられています。</p>
+				</li>
+			</ul>
 		</section>
 		<section id="front_3point" class="sec_container">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/three_points.png" alt="名古屋電気工事が選ばれている3つのポイント">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/three_points.png" alt="名古屋消防設備が選ばれている3つのポイント">
 			<!-- point 1 -->
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_1.png" alt="電気に関するあらゆるお困りごとを解決">
-			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/five_building.png" alt="住宅・マンション・店舗・工場・施設">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_1.png" alt="消防・防災に関するあらゆるお困りごとを解決">
+			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/building.jpg" alt="" class="front_3pointBuildingImg">
 			<div class="sec_inner_container mt-0 pt-2 sec_inner_bgwhite">
 				<div class="const_example_box">
 					<div class="const_example_box_header">
@@ -350,18 +377,6 @@ get_header();
 					</div>
 				</div>
 			</div>
-		</section>
-		<section id="front_caution" class="sec_container sec_inner_container sec_inner_bgwhite">
-			<img class="icon_caution" src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_caution.png">
-			<h1>
-				現在、弊社への問い合わせ・ご相談を数多く頂いております。
-			</h1>
-			<p>
-				ご連絡いただいた順に対応させて頂くため、<br>
-				場合によってはお待ちいただくこともございます。<br>
-				そのため、具体的な案件をお持ちの方は相談だけでも構いませんので<br>
-				早めにご連絡いただければと思います。<br>
-			</p>
 		</section>
 		<!-- お問い合わせはこちら 見積無料 -->
 		<?php get_template_part('contactform-link'); ?>
