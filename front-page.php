@@ -173,37 +173,37 @@ get_header();
 		<?php get_template_part('contactform-link'); ?>
 		<section id="front_result_and_voice" class="sec_container">
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/construction_results.png" alt="名古屋空調工事">
-			<div class="sec_inner_container sec_inner_bgblue">
+			<div class="sec_inner_container sec_inner_bgred">
 				<div class="row align-items-center">
 					<img class="col-4" src="<?php bloginfo('template_directory'); ?>/img/front-page/customer_message.png" alt="お客様の声">
 					<span class="col-8 custom_voice">
-						名古屋電気工事を<br class="md-br">利用してくださった<br>
-						<span class="underline_blue">お客様の声</span>
+						名古屋消防設備を<br class="md-br">利用してくださった<br>
+						<span class="underline_red">お客様の声</span>
 					</span>
 				</div>
 				<div class="custom_voice_box">
 					<div class="speechbaloon">
-						すぐに漏電箇所の判断をしてもらい、<span class="underline_yellow">即日施工</span>していただき助かりました。
+						これまで何年も他社に消防点検をお願いしていましたが、取り決めている価格が適正かどうか気になり、<span class="underline_yellow">軽い気持ちでお見積をお願い</span>しました。<span class="underline_yellow">相談にも親身に乗ってくれ、金額も細かな日時指定も頑張っていただけました。</span>
 					</div>
-					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_1.png" alt="お客様">
+					<div class="custom_image">
+						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_1.png" alt="お客様">
+						<span class="voice_occupation">ホテル</span>
+					</div>
 				</div>
 				<div class="custom_voice_box">
 					<div class="speechbaloon">
-						飲食店を経営していますが、専用電源や容量についても<span class="underline_yellow">細かく説明</span>してくれ、助かった。
+						新たに介護施設を開所するにあたり、消防設備の新設をお願いしました。<span class="underline_yellow">至急の話でしたが、スピーディにご対応いただき</span>無事に開所できました。
 					</div>
-					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_2.png" alt="お客様">
-				</div>
-				<div class="custom_voice_box">
-					<div class="speechbaloon">
-						ＥＶ電源を必要とした時に<span class="underline_yellow">親切、丁寧、希望通り</span>に施工していただきました。
+					<div class="custom_image">
+						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_2.png" alt="お客様">
+						<span class="voice_occupation">介護施設</span>
 					</div>
-					<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_customer_3.png" alt="お客様">
 				</div>
 			</div>
 		</section>
 		<section id="front_company" class="sec_container sec_inner_bgblue">
 			<div class="company_box_header">
-				名古屋電気工事／概要
+				名古屋消防設備／会社概要
 			</div>
 			<div class="company_box">
 				<div class="company_1st_message">
@@ -215,7 +215,7 @@ get_header();
 					</p>
 				</div>
 				<div class="company_box_main">
-					<img class="photo_president" src="<?php bloginfo('template_directory'); ?>/img/front-page/photo_president.png" alt="会社代表近影">
+					<img class="photo_president" src="<?php bloginfo('template_directory'); ?>/img/front-page/photo_president.jpg" alt="会社代表近影">
 					<div class="company_info_box">
 						<span class="company_info_itemname">商号</span><br>
 						株式会社セキュアス
@@ -308,7 +308,7 @@ get_header();
 			<div class="sec_inner_container sec_inner_bgbrown">
 				<div class="qabox">
 					<div class="qabox_inner qabox_q">
-						器具（材料）は持っているので、工事だけでもお願いできますか？
+						器具(材料)は手配してあるので、<br />工事や申請だけでもお願いできますか？
 					</div>
 					<div class="qabox_inner qabox_a">
 						お客様支給での施工も可能です！
@@ -316,7 +316,7 @@ get_header();
 				</div>
 				<div class="qabox">
 					<div class="qabox_inner qabox_q">
-						夜間や休日、緊急時でも対応してもらえますか？
+						工事や点検は、夜間や休日、緊急時でも対応してもらえますか？
 					</div>
 					<div class="qabox_inner qabox_a">
 						対応可能です。まずはお気軽にお問合せ下さい。
@@ -324,13 +324,25 @@ get_header();
 				</div>
 				<div class="qabox">
 					<div class="qabox_inner qabox_q">
-						電気の容量変更の工事後の申請もお願いできますか？
+						消防署との打合せもお願いできますか？
 					</div>
 					<div class="qabox_inner qabox_a">
-						登録工事店ですので、安心してお任せください！
+						管轄消防署の担当者と弊社にて打合せをし、<br />お客様にご報告いたします。
 					</div>
 				</div>
 			</div>
+		</section>
+		<section id="front_caution" class="sec_container sec_inner_container sec_inner_bgwhite">
+			<img class="icon_caution" src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_caution.png">
+			<h1>
+				現在、弊社への問い合わせ・ご相談を数多く頂いております。
+			</h1>
+			<p>
+				ご連絡いただいた順に対応させて頂くため、<br>
+				場合によってはお待ちいただくこともございます。<br>
+				そのため、具体的な案件をお持ちの方は相談だけでも構いませんので<br>
+				早めにご連絡いただければと思います。<br>
+			</p>
 		</section>
 		<!-- お問い合わせはこちら 見積無料 -->
 		<?php get_template_part('contactform-link'); ?>
