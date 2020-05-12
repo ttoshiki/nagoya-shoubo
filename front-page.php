@@ -115,103 +115,57 @@ get_header();
 			<div class="sec_inner_container mt-0 pt-2 sec_inner_bgwhite">
 				<div class="const_example_box">
 					<div class="const_example_box_header">
-						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_const_home.png" alt="住宅電気工事">
-						<span>住宅電気工事</span>
+						<span>工事・点検対象</span>
 					</div>
 					<div class="d-flex flex-wrap justify-content-center">
-						<div class="const_example_img_outer col-8 col-md-4">
-							<img src="<?php bloginfo('template_directory'); ?>/img/front-page/const_example_home.png" alt="住宅電気工事の例">
-						</div>
+						<ul class="const_example_list">
+							<li class="const_example_item">ビル<br />マンション</li>
+							<li class="const_example_item">工　場</li>
+							<li class="const_example_item">店　舗</li>
+							<li class="const_example_item">介護施設</li>
+							<li class="const_example_item">ホテル<br />民泊施設</li>
+							<li class="const_example_item">学校</li>
+							<li class="const_example_item">オフィス</li>
+						</ul>
 						<div class="const_example_text col-12 col-md-8">
-							<div class="cet_1">
-								住宅の新築・リフォームの電気工事を施工致します。<br>
-								施工後のメンテナンスや各種トラブル対応等もお任せください。
-							</div>
 							<div class="cet_2">施工実績</div>
-							<div class="cet_3">
-								<span class="highlight">宅内配線</span>、<span class="highlight">換気工事</span>、<span class="highlight">オール電化工事アンテナ工事</span>、<span class="highlight">LAN工事</span>、<span class="highlight">太陽光工事</span>、<span class="highlight">エアコン取付</span>　等
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="const_example_box">
-					<div class="const_example_box_header">
-						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_const_shop.png" alt="店舗電気工事">
-						<span>店舗電気工事</span>
-					</div>
-					<div class="d-flex flex-wrap justify-content-center">
-						<div class="const_example_img_outer col-8 col-md-4">
-							<img src="<?php bloginfo('template_directory'); ?>/img/front-page/const_example_shop.png" alt="店舗電気工事の例">
-						</div>
-						<div class="const_example_text col-12 col-md-8">
-							<div class="cet_1">
-								綿密な打ち合わせを実施し、お客様の使いやすさを第一に店舗施工致します。「もれ」「ぬけ」の無い徹底した工事施工を実現致します。
-							</div>
-							<div class="cet_2">施工実績</div>
-							<div class="cet_3">
-								<span class="highlight">電化厨房工事</span>、<span class="highlight">コンセント増設工事</span>、<span class="highlight">管理カメラ工事</span>、<span class="highlight">厨房内空調工事専用電源工事</span>、<span class="highlight">照明改修工事</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="const_example_box">
-					<div class="const_example_box_header">
-						<img src="<?php bloginfo('template_directory'); ?>/img/front-page/icon_const_factory.png" alt="工場電気工事">
-						<span>工場電気工事</span>
-					</div>
-					<div class="d-flex flex-wrap justify-content-center">
-						<div class="const_example_img_outer col-8 col-md-4">
-							<img src="<?php bloginfo('template_directory'); ?>/img/front-page/const_example_factory.png" alt="工場電気工事の例">
-						</div>
-						<div class="const_example_text col-12 col-md-8">
-							<div class="cet_1">
-								規模の大きな工場から設備の修繕まで、豊富な実績で対応致します。電源の増設や小さな案件でもまずご相談ください。
-							</div>
-							<div class="cet_2">施工実績</div>
-							<div class="cet_3">
-								<span class="highlight">L E D化工事</span>、<span class="highlight">電源改修工事</span>、<span class="highlight">照明工事</span>、<br>
-								<span class="highlight">キュービクル廃止</span>・<span class="highlight">新設工事</span>、<span class="highlight">放送設備工事</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="const_example_box">
-					<div class="const_example_box_header">
-						<span>その他</span>
-					</div>
-					<div class="const_example_text">
-						<div class="cet_3 text-center">
-							<span class="highlight">賃貸マンション・貸ビル　電気トラブル駆付け対応</span><br>
-							<span class="highlight">太陽光発電</span>、<span class="highlight">メンテナンス</span>、<span class="highlight">各種電気土木工事（電柱建柱等）</span>　他多数
+							<ul class="cet_3">
+								<li class="highlight">・法定消防点検</li>
+								<li class="highlight">・消防設備設置工事</li>
+								<li class="highlight">・避難灯／誘導灯工事</li>
+								<li class="highlight">・連結送水管試験／改修</li>
+								<li class="highlight">・スプリンクラー新設／移設</li>
+							</ul>
+							<p>他、消防設備に関係するものはご相談ください<br />上記以外の内容にも、熟練の職人が対応致します</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- point 2 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_2.png" alt="安心の料金設計！">
-			<div class="sec_inner_container sec_inner_bgwhite">
+			<div class="sec_inner_container sec_inner_bgwhite sec_price">
 				<p class="pt-3 font-weight-bold">明確な料金設定で、工事費用が気になる方にも<br class="md-br">安心してご利用頂いております。</p>
 				<div class="p2_tri_outer">
 					<div class="point2_triangle"></div>
 				</div>
-				<img class="price_list" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list.png" alt="価格表">
+				<img class="price_list" src="<?php bloginfo('template_directory'); ?>/img/front-page/price_list.jpg" alt="価格表">
 			</div>
 			<!-- point 3 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_3.png" alt="ジャンルが違っても一括受注が可能！">
 			<div class="sec_inner_container sec_inner_bgwhite">
 				<p class="pt-3 point3_text">
 					自社にて<br>
-					<span class="point3_blue1">□空調工事部門</span>&nbsp;&nbsp;<br class="md-br">
-					<span class="point3_blue2">□消防工事部門</span>&nbsp;&nbsp;<br class="md-br">
-					<span class="point3_blue1">□防犯カメラ部門</span><br>
+					<span class="point3_dark">□電気工事部門</span>&nbsp;&nbsp;<br class="md-br">
+					<span class="point3_light">□空調工事部門</span>&nbsp;&nbsp;<br class="md-br">
+					<span class="point3_dark">□防犯カメラ部門</span><br>
 					を有しており、一括受注が可能です。<br>
 					その他、多数実績による蓄積された経験で、<br class="md-br">小さな "困った" にも対応致します。
 				</p>
 				<div class="row genre_imgs">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_aircon.png" alt="名古屋空調工事">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_firefight.png" alt="名古屋消防設備">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_security.png" alt="防犯カメラセキュリティ">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_camera.png" alt="無料防犯カメラ">
+					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_electric.jpg" alt="名古屋電気工事">
+					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_aircon.jpg" alt="名古屋空調工事">
+					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_security.jpg" alt="防犯カメラセキュリティ">
+					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_camera.jpg" alt="無料防犯カメラ">
 				</div>
 			</div>
 		</section>
