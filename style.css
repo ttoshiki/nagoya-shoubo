@@ -1002,6 +1002,24 @@ a:active {
   background-color: #dddddd;
 }
 
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+}
+
 /* 固定ページ */
 
 .fixed_page {
@@ -1336,6 +1354,33 @@ a:active {
   font-size: 18px;
 }
 
+@media (max-width: 768px) {
+  #front_legal {
+    margin-top: -18px;
+    padding: 40px 0 24px;
+  }
+
+  .front_legalHeading {
+    flex-direction: column;
+    font-size: 20px;
+    padding: 0 16px;
+  }
+
+  .front_legalHeading img {
+    width: 64px;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .front_legalList {
+    margin: 24px 1em 1.5em 1em;
+  }
+
+  .front_legalSubHeading {
+    font-size: 24px;
+  }
+}
+
 /* ------ section # front_3point ------ */
 
 #front_3point {
@@ -1468,6 +1513,10 @@ a:active {
 }
 
 @media (max-width: 768px) {
+  .const_example_box {
+    margin-top: 48px;
+  }
+
   .const_example_box_header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1475,11 +1524,37 @@ a:active {
     flex-direction: column;
     margin-bottom: 10px;
   }
+
   .const_example_box_header span {
     letter-spacing: 0;
   }
+
   .const_example_img_outer {
     padding-top: 20px;
+  }
+
+  .const_example_list {
+    justify-content: space-between;
+    margin: 8px 0 0;
+  }
+
+  .const_example_item {
+    width: 48%;
+    font-size: 16px;
+    padding: 10px 2px;
+    margin-bottom: 12px;
+  }
+
+  .const_example_item:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .const_example_box_header span {
+    font-size: 22px;
+  }
+
+  .const_example_text > div {
+    margin-top: 8px;
   }
 }
 
@@ -1567,6 +1642,42 @@ a:active {
 
 .genre_imgs img {
   padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .pt-3 {
+    font-size: 16px;
+  }
+
+  .cet_3 {
+    text-align: left;
+  }
+
+  .cet_3 .highlight {
+    font-size: 18px;
+    margin: 0 0 16px 0;
+  }
+
+  .cet_3 .highlight:not(:nth-child(2n)) {
+    margin: 0 0 16px;
+  }
+
+  .const_example_text p {
+    text-align: left;
+  }
+
+  .p2_tri_outer {
+    margin-bottom: 13vw;
+  }
+
+  .point3_text .point3_dark,
+  .point3_text .point3_light {
+    font-size: 22px;
+  }
+
+  .point3_text {
+    font-size: 18px;
+  }
 }
 
 /* ------ section # front_result_and_voice ------ */
@@ -1965,14 +2076,22 @@ a:active {
 @media (max-width: 768px) {
   .front_question_header {
     height: 100px;
+    font-size: 30px;
   }
+
+  #front_question::before {
+    height: 100px;
+  }
+
   .front_question_header:after {
     border-top: 100px solid transparent;
     border-left: 50px solid black;
   }
+
   .qabox_q {
     font-size: 20px;
   }
+
   .qabox_a {
     font-size: 25px;
   }

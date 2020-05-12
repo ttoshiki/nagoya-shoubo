@@ -144,7 +144,7 @@ get_header();
 			<!-- point 2 -->
 			<img src="<?php bloginfo('template_directory'); ?>/img/front-page/point_2.png" alt="安心の料金設計！">
 			<div class="sec_inner_container sec_inner_bgwhite sec_price">
-				<p class="pt-3 font-weight-bold">明確な料金設定で、工事費用が気になる方にも<br class="md-br">安心してご利用頂いております。</p>
+				<p class="pt-3 font-weight-bold">明確な料金設定で、工事費用が気になる方にも<br class="pc">安心してご利用頂いております。</p>
 				<div class="p2_tri_outer">
 					<div class="point2_triangle"></div>
 				</div>
@@ -158,8 +158,8 @@ get_header();
 					<span class="point3_dark">□電気工事部門</span>&nbsp;&nbsp;<br class="md-br">
 					<span class="point3_light">□空調工事部門</span>&nbsp;&nbsp;<br class="md-br">
 					<span class="point3_dark">□防犯カメラ部門</span><br>
-					を有しており、一括受注が可能です。<br>
-					その他、多数実績による蓄積された経験で、<br class="md-br">小さな "困った" にも対応致します。
+					を有しており、<br class="sp">一括受注が可能です。<br>
+					その他、多数実績による<br class="sp">蓄積された経験で、<br class="md-br">小さな "困った" にも<br class="sp">対応致します。
 				</p>
 				<div class="row genre_imgs">
 					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_electric.jpg" alt="名古屋電気工事">
