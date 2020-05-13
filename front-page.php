@@ -162,10 +162,10 @@ get_header();
 					その他、多数実績による<br class="sp">蓄積された経験で、<br class="md-br">小さな "困った" にも<br class="sp">対応致します。
 				</p>
 				<div class="row genre_imgs">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_electric.jpg" alt="名古屋電気工事">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_aircon.jpg" alt="名古屋空調工事">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_security.jpg" alt="防犯カメラセキュリティ">
-					<img class="col-8 col-md-6" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_camera.jpg" alt="無料防犯カメラ">
+					<a href="//nagoya-denki.biz/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_electric.jpg" alt="名古屋電気工事"></a>
+					<a href="//nagoya-aircon.com/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_aircon.jpg" alt="名古屋空調工事"></a>
+					<a href="#"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_security.jpg" alt="防犯カメラセキュリティ"></a>
+					<a href="http://zero-camera.net/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_camera.jpg" alt="無料防犯カメラ"></a>
 				</div>
 			</div>
 		</section>

@@ -1406,8 +1406,9 @@ a:active {
   background-color: #fff7ea;
 }
 
-#front_3point img {
-  width: 100%;
+#front_3point a {
+  width: calc(50% - 30px);
+  margin: 15px;
 }
 
 #front_3point .front_3pointBuildingImg {
@@ -1562,6 +1563,10 @@ a:active {
   .const_example_text > div {
     margin-top: 8px;
   }
+
+  #front_3point a {
+    width: 67%;
+  }
 }
 
 .const_example_text {
@@ -1644,10 +1649,6 @@ a:active {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.genre_imgs img {
-  padding: 15px;
 }
 
 @media (max-width: 768px) {
