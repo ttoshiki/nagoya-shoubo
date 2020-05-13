@@ -30,7 +30,7 @@
 
 		<header id="masthead" class="site-header">
 			<div class="row mx-2">
-				<div class="col-12 col-lg-6">
+				<div class="col-12 col-lg-6 site-logo">
 					<p class="header_catchcopy">あらゆる建物の消防点検・防災設備工事なら</p>
 					<?php the_custom_logo(); ?>
 				</div>

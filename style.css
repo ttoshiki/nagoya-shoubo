@@ -1113,6 +1113,12 @@ a:active {
   .header_right_tel {
     font-size: 8vw;
   }
+  .header_catchcopy {
+    white-space: nowrap;
+  }
+  .col-12.site-logo {
+    padding: 0;
+  }
 }
 
 .header_icon_contact {
@@ -1422,11 +1428,10 @@ a:active {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-color: white;
-  width: 45%;
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
-  padding: 0 30px;
+  padding: 0 30px 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1495,7 +1500,7 @@ a:active {
 }
 
 .const_example_box_header span {
-  font-size: 3.3vw;
+  font-size: 32px;
   font-weight: bold;
   letter-spacing: 0.5vw;
 }
@@ -1523,6 +1528,7 @@ a:active {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 10px;
+    padding: 0 30px;
   }
 
   .const_example_box_header span {
@@ -1948,7 +1954,7 @@ a:active {
 .flow_engineer_illust {
   position: absolute;
   /* front_flow */
-  right: 0;
+  right: 24px;
   bottom: 0;
   width: 20vw;
 }
