@@ -164,7 +164,7 @@ get_header();
 				<div class="row genre_imgs">
 					<a href="//nagoya-denki.biz/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_electric.jpg" alt="名古屋電気工事"></a>
 					<a href="//nagoya-aircon.com/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_aircon.jpg" alt="名古屋空調工事"></a>
-					<a href="#"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_security.jpg" alt="防犯カメラセキュリティ"></a>
+					<a href="//nagoya-camera.net"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_security.jpg" alt="防犯カメラセキュリティ"></a>
 					<a href="http://zero-camera.net/"><img class="" src="<?php bloginfo('template_directory'); ?>/img/front-page/genre_camera.jpg" alt="無料防犯カメラ"></a>
 				</div>
 			</div>
